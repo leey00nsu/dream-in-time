@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'WooridaumB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/WooridaumB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.App {
+  font-family:'WooridaumB';
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+.TimeNow {
+  font-size : 50px;
+}
+
+.TimeLater {
+  font-size : 30px;
+}
+
+.FadeText {
+  padding-top: 10px;
+}
+
+.Moon {
+  width: 200px;
+  animation: fadein 3.5s ease-in-out;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translatey(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translatey(0px);
+    }
+}
