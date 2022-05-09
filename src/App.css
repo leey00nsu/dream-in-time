@@ -10,26 +10,30 @@
   display: flex;
   justify-content: center;
   align-items:center;
-  min-height: 100vh;
+  min-height: 100vmin;
   flex-direction: column;
   text-align: center;
+  font-size : 1vmax;
+  
 }
 .TimeNow {
-  font-size : 50px;
+  font-size : 4vmax;
+  
 }
 
 .TimeLater {
-  font-size : 30px;
+  font-size : 3vmax;
 }
 
 .FadeText {
-  padding-top: 10px;
+  padding-top: 1%;
 }
 
 .Moon {
-  width: 200px;
+  width: 30vmin;
   animation: fadein 3.5s ease-in-out;
 }
+
 @keyframes fadein {
     from {
         opacity: 0;
